@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(DiceRoll());
+  runApp(const DiceRoll());
 }
 
 class DiceRoll extends StatefulWidget {
@@ -26,7 +26,7 @@ class _DiceRollState extends State<DiceRoll> {
               children: <Widget>[
                 Expanded(
                   child: Container(
-                      margin: EdgeInsets.all(100),
+                      margin:const EdgeInsets.all(100),
                       child: ElevatedButton(
                         onPressed: () {
                           setState(() {

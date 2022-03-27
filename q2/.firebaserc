@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lab4-61c86"
+  },
+  "targets": {
+    "lab4-61c86": {
+      "hosting": {
+        "q2": [
+          "lab4q2-1112"
+        ]
+      }
+    }
+  }
+}
